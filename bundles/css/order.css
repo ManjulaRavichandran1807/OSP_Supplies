@@ -1,0 +1,91 @@
+body,html 
+{
+    margin: 0;
+    padding: 0;
+    color: #585858;
+}
+.wrapper-full 
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wrapper 
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body a:hover,body button:hover 
+{
+    opacity: .8;
+}
+h1,h2,h3,h4,h5,h6,a 
+{
+    color: #050404;
+	text-align: center;
+}
+.bgimg
+{
+	background: url(../images/medicine.jpg) no-repeat 0px 0px;
+	background-size: cover;
+}
+.layer
+{
+	background: url(../images/layer.png) no-repeat 0px 0px;
+    background-size: cover;
+	min-height: 100vh;
+}
+.form-info h1
+{
+	font-size: 55px;
+	line-height: 60px;
+	color: #ffff;
+	font-weight: 600;
+}
+.form-right-inf input[type="text"],.select
+{
+	background-color: #f6f6f6;
+	color: #304659;
+	padding: 0px 30px;
+	text-align:left;
+	font-size: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+	width: 30%;
+	height: 50px;
+}
+button.btn
+{
+	background-color:#d8137f;
+	color: #ffffff;
+	padding:0px 40px;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	margin-bottom: 15px;
+}
+button.btn:hover 
+{
+	opacity:0.8;
+	background-color:#b70b6f;
+}
+.form-inner-cont 
+{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 750px;
+	padding: 13em 0 0 0;
+}
+.form-right-inf input[type="radio"]
+{
+	background-color:#d8137f;
+	color: #050404;
+	font-size: 20px;
+}
